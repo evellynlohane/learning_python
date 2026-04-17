@@ -1,3 +1,5 @@
+# Projeto básico, sem uso de funções complexas
+
 aluno = input('Digite o nome do aluno (a): ')
 p1 = float(input('Nota 1 de português: '))
 p2 = float(input('Nota 2 de português: '))
