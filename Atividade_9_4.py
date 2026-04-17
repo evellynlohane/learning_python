@@ -31,7 +31,7 @@ for idade in range (0,11,1):
 ###########
 print('                ')
 
-print('Insira 30 idades: ')
+print('Insira 30 notas de portugês: ')
 print('                ') #Utilizei por estética
 
 for nota in range (0,31,1):
