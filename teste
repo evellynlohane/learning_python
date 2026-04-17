@@ -1,0 +1,11 @@
+# Sem eval, o Python leria isto apenas como o texto "[10, 8, 9]"
+# Com eval, o Python cria uma CLASSE LIST automaticamente
+notas = eval(input("Digite uma lista de notas (ex: [10, 8, 7.5]): "))
+
+# Agora você pode usar funções de Lista (que estão no seu guia!)
+print(f"A primeira nota foi: {notas[0]}")
+print(f"A soma das notas é: {sum(notas)}")
+
+# Se você digitar apenas um número, o eval() cria um Integer
+# Se você digitar entre colchetes [], o eval() cria uma Lista
+print(f"O tipo de dado criado foi: {type(notas)}")
