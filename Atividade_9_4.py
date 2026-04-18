@@ -31,15 +31,35 @@ for idade in range (0,11,1):
 ###########
 print('                ')
 
-print('Insira 30 notas de portugês: ')
-print('                ') #Utilizei por estética
+print('Insira 30 notas de português: ')
+print('                ') # Utilizei por estética
 
-for nota in range (0,31,1):
-    print('                ') #Utilizei por estética
-    nota = int(input('Digite uma nota para portugês:'))
+for i in range == 30:
+    print('                ') # Utilizei por estética
+    nome = str(input('Digite o nome do aluno: '))
+    genero = str(input("Digite o gênero (M, F ou Outro): ")).upper()
+    nota = float(input('Digite uma nota para português: '))
+    
     if nota >= 7:
         print(f'Aprovado: {nota}')
     elif nota < 7 and nota >= 5:
         print(f'Em recuperação: {nota}')
     else:
         print(f'Reprovado: {nota}')
+
+    match genero:
+        case "M":
+            print("Masculino")
+            somam += 1
+        case "F":
+            print("Feminino")
+            somaf += 1
+        case "OUTRO":
+            print("Outro")
+            somao += 1
+        case _:
+            print("Entrada inválida")
+
+print(f'Total feminino: {somaf}')
+print(f'Total Masculino: {somam}')
+print(f'Total outro: {somao}')
